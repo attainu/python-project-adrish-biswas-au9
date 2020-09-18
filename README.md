@@ -48,16 +48,14 @@
 
 - Then,you will see the following options
 
-  ```sh
 --set-threshold                  sets the threshold value for the emergency sms updates
 --set-interval                   sets the interval for daily updates
 --set-duration                   sets the duration value for the emergency sms updates
 --set-destination                sets the destination app for daily updates
 --set-message-bunch              sets the number of messages to be bunched at an interval
 --help                           print this help and exit
-  ```
 
-## Guide for Command Line:
+##### Guide for Command Line:
 
 > Run the below mentioned appropriate commands for the Target Applications,in the Terminal.
 --set-threshold                  sets the threshold value(in rupees) for the emergency sms updates; notice we 
