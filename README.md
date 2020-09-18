@@ -8,9 +8,9 @@
 
 > Bitcoin offers an efficient means of transferring money over the internet and is controlled by a decentralized network with a transparent set of rules, thus presenting an alternative to central bank-controlled fiat money.
 
-##### Advantage of Bitcoin:
+##### Advantages of Bitcoin:
 
->     By using a cryptocurrency, users are able to exchange value digitally without third party oversight
+> By using a cryptocurrency, users are able to exchange value digitally without third party oversight
 
 ##### Problem Faced by Users:
 
@@ -46,25 +46,29 @@
 
 ##### Step 4
 
-- Then,you will see the following options
+  Then,you will see the following options
 
---set-threshold                  sets the threshold value for the emergency sms updates
---set-interval                   sets the interval for daily updates
---set-duration                   sets the duration value for the emergency sms updates
---set-destination                sets the destination app for daily updates
---set-message-bunch              sets the number of messages to be bunched at an interval
---help                           print this help and exit
+    Options:
+    --set-threshold                  sets the threshold value for the emergency sms updates
+    --set-interval                   sets the interval for daily updates
+    --set-duration                   sets the duration value for the emergency sms updates
+    --set-destination                sets the destination app for daily updates
+    --set-message-bunch              sets the number of messages to be bunched at an interval
+    --help                           print this help and exit
 
 ##### Guide for Command Line:
 
 > Run the below mentioned appropriate commands for the Target Applications,in the Terminal.
---set-threshold                  sets the threshold value(in rupees) for the emergency sms updates; notice we 
-                                 don't provide any options to the user here; the emergency notifications will be as a sms.
---set-interval                   sets the interval(sec) for daily updates (by daily we mean email/telegram updates.)
---set-duration                   sets the duration value(sec) for the entire script/program.
---set-destination                sets the destination app(in words) for the daily updates; we provide two options     
-                                 telegram or email; user can choose either one. enter 'email_update' for email or 'telegram_update' for telegram.
---set-message-bunch              sets the number of messages to be bunched between an interval.
+
+    --set-threshold                  sets the threshold value(in rupees) for the emergency sms updates; notice we don't provide any options to the user here; the emergency notifications will be as a sms.
+
+    --set-interval                   sets the interval(sec) for daily updates (by daily we mean email/telegram updates.)
+
+    --set-duration                   sets the duration value(sec) for the entire script/program.
+
+    --set-destination                sets the destination app(in words) for the daily updates; we provide two options telegram or email; user can choose either one enter 'email_update' for email or 'telegram_update' for telegram.
+    
+    --set-message-bunch              sets the number of messages to be bunched between an interval.
 
 ## Target Applications:
 
